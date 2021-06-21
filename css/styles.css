@@ -1,6 +1,24 @@
 .fondo{
     background-color: #560992;
 }
+h1{
+    font-family: 'Great Vibes', cursive; 
+    font-size: 80px !important;
+    color: black;
+}
+h2{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 300 !important; 
+    font-size: 40px !important;
+    color: black;
+}
+h3{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 400 !important; 
+    font-size: 30px !important;
+    color: black;
+}
+
 .img_size{
     width: 300px;
     height: 300px;
