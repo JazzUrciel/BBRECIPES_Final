@@ -1,0 +1,92 @@
+.fondo{
+    background: linear-gradient(to bottom right, #825fab, #fcc5f0);
+}
+h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 60px 0px 10px 0px !important;
+}
+h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 38px !important;
+    font-weight: 800 !important;
+}
+li{
+    font-family: 'Arima Madurai', cursive; 
+    font-size: 18px !important;
+}
+ul li{
+    list-style: none;
+}
+nav{
+    padding: 10px 0px 60px 0px;
+}
+.fondo-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    position: fixed;
+    background-color: #e0d7ea00; 
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+    margin: 0px !important;
+    text-shadow: 3px -1px 16px #e0d7ea,1px 3px 14px #e0d7ea, 3px 0px 30px #e0d7ea,-3px 0px 30px #e0d7ea ;
+    transition: ease-in-out 0.2s;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+    font-weight: 500;
+    transition: ease-in-out 0.1s;
+}
+a:hover{
+     color:black;
+     font-size: 30px;
+     transition: ease-in-out 0.1s;
+}
+.title{
+    padding: 20px 0px 30px 0px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px;
+}
+.receta{
+    display: flex;
+    padding-bottom: 3em;
+}
+.text_receta{
+    width: 50%;
+    text-align: center;
+    padding: 0px 60px 0px 30px;
+}
+.text_receta_i{
+    width: 50%;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.img_receta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    overflow:hidden;
+    transition: ease-in-out 0.2s;
+}
+.img_receta:hover{
+  -webkit-transform:scale(1.1);transform:scale(1.1);  
+  transition: ease-in-out 0.2s;
+}
+.img_size{ 
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+html{
+    scroll-behavior: smooth;
+}

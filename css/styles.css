@@ -1,6 +1,60 @@
+/* header y fondo */
 .fondo{
-    background-color: #560992;
+    background-color: #e0d7ea;
 }
+.fondo_img{
+    background-image: url(/content/main-logo-transparent.png);
+    min-height: calc(100vh - 88px); 
+}
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.back-trans-content{
+    background-color: rgba(246, 244, 245, 0.904);
+    width: 75%;
+    border-radius: 1em;
+}
+.title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+/* botones */
+.botones_container{
+    padding: 0px 3em 3em 3em;
+}
+.boton-menu{
+    text-decoration: none;
+    background-color: #fbb1eba2 !important;
+    margin: 5px;
+    
+    
+}
+
+a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #281c35 !important;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    padding: 10px 25px ;
+    
+}
+a:hover{
+    color: #CC6FFD!important;
+    text-decoration: none !important;
+}
+i{
+    padding-right: 20px;
+    font-size: 40px;
+}
+
 h1{
     font-family: 'Great Vibes', cursive; 
     font-size: 80px !important;
@@ -18,25 +72,34 @@ h3{
     font-size: 30px !important;
     color: black;
 }
-
-.img_size{
-    width: 300px;
-    height: 300px;
+/* codigo footer */
+.fondo-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #281c35;
+    padding: 21px;
 }
-
-
-.boton-menu{
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-    background-color: blueviolet;
+.footer-text p{
+    margin: 0px !important;
+    color: #f6f4f5e7;
+    font-family: 'Arima Madurai', cursive;
+    
 }
-
-#560992
-#CC6FFD
-#F9E054
-#FAC0E2
-#000000
+h5{
+    color: #f6f4f583;
+    font-size: 12px !important;
+    font-family: 'Arima Madurai', cursive;
+}
+.footer-logos{
+    display: flex;
+    color: #f6f4f5e7;
+    
+}
+.logo-f i{
+    background-color: #8c69807c !important;
+    padding: 8px;
+    margin:4px;
+    font-size: 18px !important;
+    border-radius: 3em;
+}

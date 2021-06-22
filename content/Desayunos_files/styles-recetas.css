@@ -1,0 +1,26 @@
+.fondo{
+    /* background-image: url(/content/fondo1.jpg); */
+    background: linear-gradient(to bottom right, #825fab, #fcc5f0);
+}
+.fondo-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    background-color: #e0d7ea9d; 
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+    margin: 0px !important;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+    font-weight: 500;
+}
+.title{
+
+}
+.img-size{
+    width: 100px;
+    height: 100px;
+}
