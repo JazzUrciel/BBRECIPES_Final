@@ -1,10 +1,49 @@
 /* header y fondo */
+/* .bar-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #281c35;
+    padding: 21px;
+} */
+/* .fondo-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    background-color: #7000f0e7; 
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+    margin: 0px !important;
+    text-shadow: 3px -1px 16px #e0d7ea,1px 3px 14px #e0d7ea, 3px 0px 30px #e0d7ea,-3px 0px 30px #e0d7ea ;
+    transition: ease-in-out 0.2s;
+} */
+.bar-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #281c35 !important;
+    margin: 0px !important;
+    padding: 0px !important; 
+}
+li{
+    display: flex !important;
+    align-content: center !important;
+    align-items: center !important;
+}
+li a{
+    color:  #e0d7ea !important;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 25px;
+    margin: 5px;
+}
 .fondo{
     background-color: #e0d7ea;
 }
 .fondo_img{
-    background-image: url(/content/main-logo-transparent.png);
+    background-image: url(../content/main-logo-transparent.png);
     min-height: calc(100vh - 88px); 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .home{
     width: 100%;
@@ -24,6 +63,51 @@
     padding: 3em;
 }
 
+/* noticias */
+
+.title-noticia{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 800 !important; 
+    font-size: 20px !important;
+    color: white;
+    text-shadow: 3px -1px 16px #000000,1px 3px 14px #07000e, 3px 0px 30px #040008,-3px 0px 30px #020003 ;
+}
+p a{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 800 !important; 
+    font-size: 20px !important;
+    color: white !important;
+    text-shadow: 3px -1px 16px #000000,1px 3px 14px #07000e, 3px 0px 30px #040008,-3px 0px 30px #020003 ;
+}
+.overlay{
+    background-size: cover;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+/* ventas */
+.card-img-top{
+    width: 250px;
+    height: 250px;
+}
+.card-title{
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    font-family: 'Arima Madurai', cursive;
+}
+.btn-primary{
+    background-color:  #fbb1eba2 !important;
+    border-color:  #fbb1eba2 !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+
+
 /* botones */
 .botones_container{
     padding: 0px 3em 3em 3em;
@@ -37,7 +121,9 @@
 }
 
 a{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
     width: 100%;
     text-align: center;
     color: #281c35 !important;
@@ -72,6 +158,12 @@ h3{
     font-size: 30px !important;
     color: black;
 }
+h6{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 400 !important; 
+    font-size: 20px !important;
+    color: black;
+}
 /* codigo footer */
 .fondo-footer{
     display: flex;
@@ -103,3 +195,4 @@ h5{
     font-size: 18px !important;
     border-radius: 3em;
 }
+
